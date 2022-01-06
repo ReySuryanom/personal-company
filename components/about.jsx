@@ -19,7 +19,7 @@ function About() {
         </p>
       </div>
       <div className="flex flex-col w-1/2">
-        <div className="w-60 h-60 bg-[#338E4F] rounded-2xl self-end" />
+        <div className="self-end w-60 h-60 bg-primary rounded-2xl" />
         <div className="self-center w-64 h-64 -my-32 overflow-hidden rounded-2xl">
           <Image
             src={coconutImage}
