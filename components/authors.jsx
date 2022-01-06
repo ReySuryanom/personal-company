@@ -4,7 +4,7 @@ import { authorsList } from '../utils/constant';
 
 function Authors() {
   return (
-    <section className="px-[105px] py-32">
+    <section className="px-[105px] py-32" id="team">
       <h2 className="mb-10 text-3xl font-semibold text-center">Our Teams</h2>
       <div className="grid grid-cols-3 gap-x-5">
         {authorsList.map((list) => (
@@ -16,8 +16,8 @@ function Authors() {
             <h4 className="text-sm font-medium">{list.role}</h4>
             <p className="w-11/12 text-sm leading-7">{list.text}</p>
             <div className="flex items-center justify-center mx-auto space-x-3">
-              <AiOutlineLinkedin className="text-2xl text-gray-500" />
-              <AiOutlineInstagram className="text-2xl text-gray-500" />
+              <AiOutlineLinkedin className="text-2xl text-gray-500 duration-300 ease-in-out cursor-pointer hover:text-dark" />
+              <AiOutlineInstagram className="text-2xl text-gray-500 duration-300 ease-in-out cursor-pointer hover:text-dark" />
             </div>
           </div>
         ))}

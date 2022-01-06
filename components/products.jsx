@@ -23,22 +23,25 @@ function Products() {
   };
 
   return (
-    <section className="bg-[#F6F7F6] px-[105px] py-32 flex items-center">
+    <section
+      className="bg-[#F6F7F6] px-[105px] py-32 flex items-center"
+      id="product"
+    >
       <div>
         <Button
-          style="rounded-full border-2 border-dark !p-0 w-12 h-12"
+          style="rounded-full border-2 border-dark !p-0 w-12 h-12 ease-in-out duration-300 hover:bg-dark group"
           action={() => toggleItem('-')}
         >
-          <AiOutlineArrowLeft className="mx-auto text-3xl text-dark" />
+          <AiOutlineArrowLeft className="mx-auto text-3xl duration-300 ease-in-out text-dark group-hover:text-white" />
         </Button>
       </div>
       <ProductItem product={productList[list]} />
       <div>
         <Button
-          style="rounded-full border-2 border-dark !p-0 w-12 h-12"
+          style="rounded-full border-2 border-dark !p-0 w-12 h-12 ease-in-out duration-300 hover:bg-dark group"
           action={() => toggleItem('+')}
         >
-          <AiOutlineArrowRight className="mx-auto text-3xl text-dark" />
+          <AiOutlineArrowRight className="mx-auto text-3xl duration-300 ease-in-out text-dark group-hover:text-white" />
         </Button>
       </div>
     </section>

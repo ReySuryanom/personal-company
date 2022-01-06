@@ -9,10 +9,20 @@ function ProductItem({ product }) {
     <article className="flex items-center px-8">
       <div className="w-1/2 space-y-7">
         <h2 className="text-4xl font-semibold">Our Product</h2>
-        <h3 className="text-2xl font-medium text-primary">{title}</h3>
+        <h3 className="text-2xl font-medium capitalize text-primary">
+          {title}
+        </h3>
         <p className="w-[87%] leading-7">{desc}</p>
-        <Button style="!font-semibold mr-5" title="See Details" dark />
-        <Button style="!font-semibold" title="Contact Us" dark>
+        <Button
+          style="ease-in-out duration-300 hover:bg-dark hover:text-white !font-semibold mr-5"
+          title="See Details"
+          dark
+        />
+        <Button
+          style="ease-in-out duration-300 hover:bg-dark hover:text-white !font-semibold"
+          title="Contact Us"
+          dark
+        >
           <FaWhatsapp className="ml-2 text-2xl text-primary" />
         </Button>
       </div>
