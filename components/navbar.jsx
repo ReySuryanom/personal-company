@@ -2,7 +2,7 @@ import Image from 'next/image';
 import { useEffect, useState } from 'react';
 
 function Navbar() {
-  const [scrollDir, setScrollDir] = useState('DOWN');
+  const [scrollDir, setScrollDir] = useState('UP');
   const [top, setTop] = useState(true);
 
   useEffect(() => {
