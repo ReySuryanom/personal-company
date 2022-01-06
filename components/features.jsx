@@ -3,7 +3,7 @@ import KeyFeature from './key-feature';
 
 function Features() {
   return (
-    <section className="p-[105px]">
+    <section className="px-[105px] py-32">
       <h2 className="mb-20 text-3xl font-semibold text-center">
         Our Key Features
       </h2>

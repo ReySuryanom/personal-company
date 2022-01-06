@@ -68,3 +68,27 @@ export const productList = [
     img: 'https://universalcoco.com/static/media/virgin-coconut-oil.adcf0fc5.png',
   },
 ];
+
+export const authorsList = [
+  {
+    img: 'https://universalcoco.com/static/media/julio.71152fa4.png',
+    name: 'Julio',
+    role: 'Founder',
+    text: 'Our faith is the substance of our future. There is no big success without big sacrifice.',
+    contact: { linkedln: '#', instagram: '#' },
+  },
+  {
+    img: 'https://universalcoco.com/static/media/hafis.7ef4e4a6.png',
+    name: 'Alhafis Wijaya',
+    role: 'Co-Founder',
+    text: 'Many of life’s failures are people who did not realize how close they were to success when they gave up.',
+    contact: { linkedln: '#', instagram: '#' },
+  },
+  {
+    img: 'https://universalcoco.com/static/media/stella.1a8cdc31.png',
+    name: 'Stella Carissa',
+    role: 'Business Development',
+    text: 'Many of life’s failures are people who did not realize how close they were to success when they gave up.',
+    contact: { linkedln: '#', instagram: '#' },
+  },
+];

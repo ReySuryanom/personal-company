@@ -1,8 +1,5 @@
 import Head from 'next/head';
-import About from '../components/about';
-import Features from '../components/features';
-import Hero from '../components/hero';
-import Products from '../components/products';
+import * as Section from '../components';
 
 export default function Home() {
   return (
@@ -16,13 +13,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <header className="bg-hero px-[105px]">
-        <Hero />
+        <Section.Hero />
       </header>
-      <About />
-      <Features />
-      <Products />
-
-      <footer></footer>
+      <Section.About />
+      <Section.Features />
+      <Section.Products />
+      <Section.Authors />
     </>
   );
 }

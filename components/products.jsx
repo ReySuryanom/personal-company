@@ -23,7 +23,7 @@ function Products() {
   };
 
   return (
-    <section className="bg-[#F6F7F6] p-[105px] flex items-center">
+    <section className="bg-[#F6F7F6] px-[105px] py-32 flex items-center">
       <div>
         <Button
           style="rounded-full border-2 border-dark !p-0 w-12 h-12"
