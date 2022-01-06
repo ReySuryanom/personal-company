@@ -48,7 +48,7 @@ function Navbar() {
       className={`${
         !isScrollingUp ? 'hidden' : 'bg-white text-dark border-dark border-b-2'
       } ${
-        top && 'bg-transparent duration-300 ease-in-out !text-white'
+        top && '!bg-transparent duration-300 ease-in-out !text-white !border-0'
       } fixed top-0 left-0 flex items-center justify-between w-full py-3 px-[105px] z-10`}
     >
       <Image

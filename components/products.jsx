@@ -29,7 +29,7 @@ function Products() {
     >
       <div>
         <Button
-          style="rounded-full border-2 border-dark !p-0 w-12 h-12 ease-in-out duration-300 hover:bg-dark group"
+          style="!rounded-full border-2 border-dark !p-0 w-12 h-12 ease-in-out duration-300 hover:bg-dark group"
           action={() => toggleItem('-')}
         >
           <AiOutlineArrowLeft className="mx-auto text-3xl duration-300 ease-in-out text-dark group-hover:text-white" />
@@ -38,7 +38,7 @@ function Products() {
       <ProductItem product={productList[list]} />
       <div>
         <Button
-          style="rounded-full border-2 border-dark !p-0 w-12 h-12 ease-in-out duration-300 hover:bg-dark group"
+          style="!rounded-full border-2 border-dark !p-0 w-12 h-12 ease-in-out duration-300 hover:bg-dark group"
           action={() => toggleItem('+')}
         >
           <AiOutlineArrowRight className="mx-auto text-3xl duration-300 ease-in-out text-dark group-hover:text-white" />
