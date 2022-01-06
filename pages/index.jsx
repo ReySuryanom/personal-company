@@ -19,6 +19,7 @@ export default function Home() {
       <Section.Features />
       <Section.Products />
       <Section.Authors />
+      <Section.Footer />
     </>
   );
 }

@@ -9,7 +9,7 @@ function Authors() {
       <div className="grid grid-cols-3 gap-x-5">
         {authorsList.map((list) => (
           <div key={list.name} className="space-y-1 text-center">
-            <div className="relative mx-auto mb-10 w-44 h-44">
+            <div className="relative mx-auto mb-10 rounded-full w-44 h-44">
               <Image src={list.img} alt={list.name} layout="fill" />
             </div>
             <h3 className="text-primary">{list.name}</h3>
