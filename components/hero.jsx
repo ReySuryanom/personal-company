@@ -2,7 +2,10 @@ import Button from './button';
 
 function Hero() {
   return (
-    <div className="flex flex-col justify-center min-h-screen text-white">
+    <div
+      className="flex flex-col justify-center min-h-screen text-white"
+      id="header"
+    >
       <div className="my-auto">
         <p className="text-2xl font-semibold">Supplying across the globe</p>
         <h1 className="font-medium text-5xl w-[49%] mt-3 leading-tight">
