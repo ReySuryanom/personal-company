@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: (theme) => ({
-        hero: "url('https://universalcoco.com/static/media/jumbotron.e3b630c6.png')",
+        hero: 'url("~/public/assets/hero-bgr.webp")',
       }),
       colors: {
         dark: '#333333',

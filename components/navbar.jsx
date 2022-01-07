@@ -63,9 +63,6 @@ function Navbar() {
           <a href="#about">About</a>
         </li>
         <li>
-          <a href="#journey">Journey</a>
-        </li>
-        <li>
           <a href="#feature">Feature</a>
         </li>
         <li>

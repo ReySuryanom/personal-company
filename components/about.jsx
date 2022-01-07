@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import coconutImage from '/public/assets/coconut.jpg';
+import coconutImage from '/public/assets/coconut.webp';
 
 function About() {
   return (
@@ -7,8 +7,9 @@ function About() {
       <div className="w-1/2 space-y-12">
         <h2 className="text-3xl font-semibold">About Us</h2>
         <h3 className="w-4/5 text-lg">
-          We process more than 1,500 hectares of coconut plantations, spread
-          across several islands in Eastern Indonesia.
+          We cultivate more than 1,500 hectares of coconut plantations spread
+          across several islands in Indonesia. Our company is expanding into
+          coconut plantations, to process its derivative products.
         </h3>
         <p className="w-4/5 text-sm leading-7">
           In the beginning, our company was engaged in manufacturing where we

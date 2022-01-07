@@ -2,70 +2,54 @@ import { FaHandHoldingHeart } from 'react-icons/fa';
 import { FaHandsHelping } from 'react-icons/fa';
 import { FaRegLightbulb } from 'react-icons/fa';
 import { GiRibbonMedal } from 'react-icons/gi';
+import brownSugarImage from '/public/assets/brown-sugar.webp';
+import coconutSugarImage from '/public/assets/coconat-sugar.webp';
+import organicCoconutSugar from '/public/assets/organic-coconat-sugar.webp';
+import palmSugarImage from '/public/assets/palm-sugar.webp';
 
 export const keyFeatures = [
   {
     icon: <FaHandHoldingHeart className="mx-auto text-8xl text-primary" />,
     label: 'Integrity',
-    desc: 'Integrity means telling the truth, keeping our word and treating others with fairness and respect. Integrity is one of our most cherished assets. It must not be compromised.',
+    desc: 'Integrity means telling the truth, keeping promises, and treating others with fairness and respect. Integrity is one of our most valuable assets. It cannot be compromised.',
   },
   {
     icon: <GiRibbonMedal className="mx-auto text-8xl text-primary" />,
     label: 'Quality',
-    desc: 'Quality is exhibited in many ways by selling and supporting products and services that delight customers, establishing a work environment , delivering financial results that meet investor expectations.    ',
+    desc: 'Quality is demonstrated in many ways by selling and supporting products and services that delight customers, build a work environment, and deliver financial results that meet investor expectations.',
   },
   {
     icon: <FaHandsHelping className="mx-auto text-8xl text-primary" />,
     label: 'Commitment',
-    desc: 'Commitment is important where we will continue to provide the best to our customers and investors all the time. Our opportunity to serve should be viewed as a privilege that is not to be taken for granted.    ',
+    desc: 'Commitment is important as we will continue to provide the best to our customers and investors at all times. Our opportunity to serve should be viewed as a privilege that should not be taken for granted.',
   },
   {
     icon: <FaRegLightbulb className="mx-auto text-8xl text-primary" />,
     label: 'Innovation',
-    desc: 'Innovation means inventing, designing, developing products and services that have high appeal in the marketplace and strengthen customer preference for the Universal Coco Indonesia project.    ',
+    desc: 'Innovation means creating, designing, developing products and services that have high market attractiveness and strengthen customer preferences for the Sweet Sugar Global project.',
   },
 ];
 
 export const productList = [
   {
-    title: 'copra',
-    desc: 'Copra is the dried flesh of coconuts. Every adult coconut tree bears 50-75 nuts that can be harvested, split with machetes and left to dry in the sun. The copra is then scraped out of the husk and gets to dry further on racks. Finally, it is packed in jute bags and transported to a processing facility.',
-    img: 'https://universalcoco.com/static/media/copra-thumbnail.1d4d2aa3.png',
+    title: 'Coconut Sugar',
+    desc: 'Coconut sugar is made from coconut sap, to make coconut sugar, the coconut sap is filtered first, then brought to a boil. Coconut sugar cannot be replaced by other sugars in the recipe, because it has a unique aroma, minerals, and taste. Coconut sugar also contains vitamin C, potassium, magnesium, calcium, iron, copper and phosphorus. In addition, it has small amounts of phytonutrients, such as flavonoids, polyphenols, and anthocyanins. Coconut sugar is said to be superior to other sweeteners because it is not refined or chemically modified and contains no artificial ingredients.',
+    img: coconutSugarImage,
   },
   {
-    title: 'Coconut Briquette Charcoal',
-    desc: 'Coconut Charcoal Briquette is a compact block charcoal which made from coconut shell charcoal. Our charcoal briquette is made of granular coconut shell charcoal that is crushed charcoal and moulded using a natural binder. As fuel, it is hotter and last longer than ordinary charcoal. It is suitable for household use both indoor and outdoor. Also, it can be used in food industries, for barbecue, stove fuel, metallurgy, etc.',
-    img: 'https://universalcoco.com/static/media/coconut-briquette-charcoal.6e933f70.png',
+    title: 'Brown Sugar',
+    desc: 'Brown sugar or Javanese sugar or what is commonly called sugar air has a shape like a tube and a cylinder. But there are also some that are shaped like coconut shells following the shape of the mold, namely coconut shells. Brown sugar is made from the juice or sap of palm or coconut tree trunks, the sweet taste of brown sugar is more suitable for adding to cakes or other foods. Specifications Ash Content(0.09%), Humidity(0.09%).',
+    img: brownSugarImage,
   },
   {
-    title: 'Coconut Oil',
-    desc: 'Coconut oil, or copra oil, is an edible oil extracted from the kernel or meat of mature coconuts harvested from the coconut palm (Cocos nucifera). It has various applications. Because of its high saturated fat content, it is slow to oxidize and, thus, resistant to rancidification, lasting up to six months at 24 °C (75 °F) without spoiling.',
-    img: 'https://universalcoco.com/static/media/coconut-oil.c19dadbe.jpeg',
+    title: 'Palm Sugar',
+    desc: 'This sugar has a dark brown color tends to black. The taste of palm sugar is sweeter and the aroma is stronger than brown sugar or palm sugar. The texture of palm sugar is also thicker than brown sugar which is more liquid. Therefore, palm sugar is preferred to be used as glaze in cakes or traditional ice drinks, such as marrow porridge and ice dawet.',
+    img: palmSugarImage,
   },
   {
-    title: 'Coconut Fiber',
-    desc: 'Coconut fiber, is a natural fiber extracted from the husk of coconut[1] and used in products such as floor mats, doormats, brushes and mattresses. Coir is the fibrous material found between the hard, internal shell and the outer coat of a coconut. Other uses of brown coir (made from ripe coconut) are in upholstery padding, sacking and horticulture. White coir, harvested from unripe coconuts, is used for making finer brushes, string, rope and fishing net',
-    img: 'https://universalcoco.com/static/media/coconut-fiber.9b6f28d5.png',
-  },
-  {
-    title: 'Copra Meal',
-    desc: 'Coconut meal or copra meal is produced from the ripe fruit (nut) of the coconut palm (Cocos nucifera). The nut is split and the kernel is removed and dried below 6% moisture. This meal is called copra meal and still contains the oil.',
-    img: 'https://universalcoco.com/static/media/copra-meal.46f4e843.jpeg',
-  },
-  {
-    title: 'Coconut Peat Blocks',
-    desc: 'Cocopeat blocks are considered an ideal growing medium. The cocopeat powder thus obtained is sieved, washed, dried and finally compressed into blocks. The blocks can be used for a wide range of planting requirements. Coir is known for its natural rooting hormones and anti-fungal properties. We also ensure secure packaging of the cocopeat blocks.',
-    img: 'https://universalcoco.com/static/media/coconut-peat-blocks.777f5293.png',
-  },
-  {
-    title: 'Desinccated Coconut',
-    desc: 'Desiccated Coconut is a grated, dried (3% moisture content max.), and unsweetened fresh meat or kernel of a mature fruit of coconut. Desiccated Coconuts are graded by its cutting size, for example, fine grade and medium grade where fine grade is smaller particle size than the medium grade.',
-    img: 'https://universalcoco.com/static/media/desiccated-coconut.5a4fc0de.png',
-  },
-  {
-    title: 'Virgin Coconut Oil',
-    desc: 'Virgin coconut oil is the oil extracted from coconuts without the application of heat. It is rapidly gaining popularity throughout the world in comparison to ordinary coconut oil and for a good reason. There is, in fact, a substance called virgin coconut oil and it differs from regular coconut oil in significant ways. These differences mainly lie with the source (more specifically, the physical form of the source), the method of extraction, and its subsequent benefits.',
-    img: 'https://universalcoco.com/static/media/virgin-coconut-oil.adcf0fc5.png',
+    title: 'Organic Coconut Sugar',
+    desc: 'Organic Coconut Sugar is a powdered version of brown sugar and is often referred to by people as Crystal Sugar. The sap is heated with a stove or firewood at a temperature of 100 – 117 oC until the sap becomes thick or saturated. To produce palm sugar that has been saturated, then pour it into the mold and let it sit for a few minutes so that the sugar becomes hard. when the sap has thickened (saturated) the sap remains in the pan and is left for about 10 minutes, then stirred until a small sugar (ant sugar) is formed. In order for the size of the ant sugar to be uniform, sifting is carried out.',
+    img: organicCoconutSugar,
   },
 ];
 
