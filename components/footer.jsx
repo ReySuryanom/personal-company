@@ -1,4 +1,4 @@
-import { FaFacebookF, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
+import { FaWhatsapp, FaInstagram } from 'react-icons/fa';
 
 function Footer() {
   const currentYear = new Date().getFullYear();
@@ -19,9 +19,18 @@ function Footer() {
             media.
           </p>
           <div className="flex items-center space-x-3.5 text-xl">
-            <FaFacebookF className="cursor-pointer" />
-            <FaInstagram className="cursor-pointer" />
-            <FaLinkedinIn className="cursor-pointer" />
+            <FaWhatsapp
+              className="cursor-pointer"
+              onClick={() => open('https://wa.me/6281379629411')}
+            />
+            <FaInstagram
+              className="cursor-pointer"
+              onClick={() =>
+                open(
+                  'https://instagram.com/sugarsweetcoco6?utm_medium=copy_link'
+                )
+              }
+            />
           </div>
         </div>
       </footer>

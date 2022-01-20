@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { FaWhatsapp } from 'react-icons/fa';
+import { open } from '../utils/constant';
 import Button from './button';
 
 function ProductItem({ product }) {
@@ -21,6 +22,7 @@ function ProductItem({ product }) {
         <Button
           style="ease-in-out duration-300 hover:bg-dark hover:text-white !font-semibold"
           title="Contact Us"
+          action={() => open('https://wa.me/6281379629411')}
           dark
         >
           <FaWhatsapp className="ml-2 text-2xl text-primary" />

@@ -6,25 +6,30 @@ import brownSugarImage from '/public/assets/brown-sugar.webp';
 import coconutSugarImage from '/public/assets/coconat-sugar.webp';
 import organicCoconutSugar from '/public/assets/organic-coconat-sugar.webp';
 import palmSugarImage from '/public/assets/palm-sugar.webp';
+import dennySEImage from '/public/assets/denny-SE.webp';
+import desiMelindaSihombingImage from '/public/assets/desi-melinda-sihombing.webp';
+import firmanAliImage from '/public/assets/firman-ali.webp';
+
+export const open = (url) => window.open(url, '_blank');
 
 export const keyFeatures = [
   {
-    icon: <FaHandHoldingHeart className="mx-auto text-8xl text-primary" />,
+    icon: <FaHandHoldingHeart className="mx-auto text-8xl text-[#925614]" />,
     label: 'Integrity',
     desc: 'Integrity means telling the truth, keeping promises, and treating others with fairness and respect. Integrity is one of our most valuable assets. It cannot be compromised.',
   },
   {
-    icon: <GiRibbonMedal className="mx-auto text-8xl text-primary" />,
+    icon: <GiRibbonMedal className="mx-auto text-8xl text-[#925614]" />,
     label: 'Quality',
     desc: 'Quality is demonstrated in many ways by selling and supporting products and services that delight customers, build a work environment, and deliver financial results that meet investor expectations.',
   },
   {
-    icon: <FaHandsHelping className="mx-auto text-8xl text-primary" />,
+    icon: <FaHandsHelping className="mx-auto text-8xl text-[#925614]" />,
     label: 'Commitment',
     desc: 'Commitment is important as we will continue to provide the best to our customers and investors at all times. Our opportunity to serve should be viewed as a privilege that should not be taken for granted.',
   },
   {
-    icon: <FaRegLightbulb className="mx-auto text-8xl text-primary" />,
+    icon: <FaRegLightbulb className="mx-auto text-8xl text-[#925614]" />,
     label: 'Innovation',
     desc: 'Innovation means creating, designing, developing products and services that have high market attractiveness and strengthen customer preferences for the Sweet Sugar Global project.',
   },
@@ -55,24 +60,32 @@ export const productList = [
 
 export const authorsList = [
   {
-    img: 'https://universalcoco.com/static/media/julio.71152fa4.png',
-    name: 'Julio',
+    img: desiMelindaSihombingImage,
+    name: 'Desi Melinda Sihombing',
     role: 'Founder',
-    text: 'Our faith is the substance of our future. There is no big success without big sacrifice.',
-    contact: { linkedln: '#', instagram: '#' },
+    style: '0 -50px',
+    contact: {
+      linkedln: () =>
+        open('https://www.linkedin.com/in/desi-melinda-sihombing-018921229'),
+      instagram: () =>
+        open('https://instagram.com/desi_sihombing6?utm_medium=copy_link'),
+    },
   },
   {
-    img: 'https://universalcoco.com/static/media/hafis.7ef4e4a6.png',
-    name: 'Alhafis Wijaya',
-    role: 'Co-Founder',
-    text: 'Many of life’s failures are people who did not realize how close they were to success when they gave up.',
-    contact: { linkedln: '#', instagram: '#' },
+    img: dennySEImage,
+    name: 'Denny SE',
+    role: 'Head Marketing',
+    style: 'top',
+    contact: {
+      linkedln: () =>
+        open('https://www.linkedin.com/in/danny-setyawan-466a57227'),
+    },
   },
   {
-    img: 'https://universalcoco.com/static/media/stella.1a8cdc31.png',
-    name: 'Stella Carissa',
+    img: firmanAliImage,
+    name: 'Firmal Ali',
     role: 'Business Development',
-    text: 'Many of life’s failures are people who did not realize how close they were to success when they gave up.',
-    contact: { linkedln: '#', instagram: '#' },
+    style: 'top',
+    contact: {},
   },
 ];

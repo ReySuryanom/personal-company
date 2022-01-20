@@ -10,14 +10,30 @@ function Authors() {
         {authorsList.map((list) => (
           <div key={list.name} className="space-y-1 text-center">
             <div className="relative mx-auto mb-10 rounded-full w-44 h-44">
-              <Image src={list.img} alt={list.name} layout="fill" />
+              <Image
+                className={'rounded-full'}
+                src={list.img}
+                alt={list.name}
+                layout="fill"
+                objectFit="cover"
+                objectPosition={list.style}
+              />
             </div>
             <h3 className="text-primary">{list.name}</h3>
             <h4 className="text-sm font-medium">{list.role}</h4>
-            <p className="w-11/12 text-sm leading-7">{list.text}</p>
             <div className="flex items-center justify-center mx-auto space-x-3">
-              <AiOutlineLinkedin className="text-2xl text-gray-500 duration-300 ease-in-out cursor-pointer hover:text-dark" />
-              <AiOutlineInstagram className="text-2xl text-gray-500 duration-300 ease-in-out cursor-pointer hover:text-dark" />
+              {list?.contact?.linkedln && (
+                <AiOutlineLinkedin
+                  className="text-2xl text-gray-500 duration-300 ease-in-out cursor-pointer hover:text-dark"
+                  onClick={list?.contact?.linkedln}
+                />
+              )}
+              {list?.contact?.instagram && (
+                <AiOutlineInstagram
+                  className="text-2xl text-gray-500 duration-300 ease-in-out cursor-pointer hover:text-dark"
+                  onClick={list?.contact?.instagram}
+                />
+              )}
             </div>
           </div>
         ))}
