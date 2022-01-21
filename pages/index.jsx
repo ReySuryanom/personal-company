@@ -14,7 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <header className="bg-hero px-[105px]" id="header">
+      <header className="bg-hero bg-no-repeat bg-cover px-[105px]" id="header">
         <Section.Hero />
       </header>
       <Section.About />

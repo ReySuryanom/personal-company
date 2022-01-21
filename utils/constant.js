@@ -14,22 +14,22 @@ export const open = (url) => window.open(url, '_blank');
 
 export const keyFeatures = [
   {
-    icon: <FaHandHoldingHeart className="mx-auto text-8xl text-[#925614]" />,
+    icon: <FaHandHoldingHeart className="mx-auto text-8xl text-primary" />,
     label: 'Integrity',
     desc: 'Integrity means telling the truth, keeping promises, and treating others with fairness and respect. Integrity is one of our most valuable assets. It cannot be compromised.',
   },
   {
-    icon: <GiRibbonMedal className="mx-auto text-8xl text-[#925614]" />,
+    icon: <GiRibbonMedal className="mx-auto text-8xl text-primary" />,
     label: 'Quality',
     desc: 'Quality is demonstrated in many ways by selling and supporting products and services that delight customers, build a work environment, and deliver financial results that meet investor expectations.',
   },
   {
-    icon: <FaHandsHelping className="mx-auto text-8xl text-[#925614]" />,
+    icon: <FaHandsHelping className="mx-auto text-8xl text-primary" />,
     label: 'Commitment',
     desc: 'Commitment is important as we will continue to provide the best to our customers and investors at all times. Our opportunity to serve should be viewed as a privilege that should not be taken for granted.',
   },
   {
-    icon: <FaRegLightbulb className="mx-auto text-8xl text-[#925614]" />,
+    icon: <FaRegLightbulb className="mx-auto text-8xl text-primary" />,
     label: 'Innovation',
     desc: 'Innovation means creating, designing, developing products and services that have high market attractiveness and strengthen customer preferences for the Sweet Sugar Global project.',
   },
