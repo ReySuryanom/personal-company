@@ -9,7 +9,7 @@ function ProductItem({ product }) {
   return (
     <article className="flex items-center px-8">
       <div className="w-1/2 space-y-7">
-        <h2 className="text-4xl font-semibold">Our Product</h2>
+        <h2 className="text-5xl font-semibold">Our Product</h2>
         <h3 className="text-2xl font-medium capitalize text-primary">
           {title}
         </h3>

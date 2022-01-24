@@ -5,7 +5,7 @@ import { authorsList } from '../utils/constant';
 function Authors() {
   return (
     <section className="px-[105px] py-32" id="team">
-      <h2 className="mb-10 text-3xl font-semibold text-center">Our Teams</h2>
+      <h2 className="mb-10 text-4xl font-semibold text-center">Our Teams</h2>
       <div className="grid grid-cols-3 gap-x-5">
         {authorsList.map((list) => (
           <div key={list.name} className="space-y-1 text-center">

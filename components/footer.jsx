@@ -6,7 +6,7 @@ function Footer() {
   return (
     <>
       <footer className="bg-[#373737] px-[105px] py-28 text-white" id="contact">
-        <h2 className="text-3xl font-semibold text-center">Questions?</h2>
+        <h2 className="mb-1 text-4xl font-semibold text-center">Questions?</h2>
         <p className="text-center mb-14">Let’s Get In Touch</p>
         <div className="space-y-7">
           <a href="#header" className="text-4xl font-bold leading-6 text-white">
