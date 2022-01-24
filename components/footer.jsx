@@ -5,7 +5,7 @@ function Footer() {
 
   return (
     <>
-      <footer className="bg-[#373737] px-[105px] py-28 text-white" id="contact">
+      <footer className="bg-primary px-[105px] py-28 text-white" id="contact">
         <h2 className="mb-1 text-5xl font-bold text-center">Questions?</h2>
         <p className="text-center mb-14">Let’s Get In Touch</p>
         <div className="space-y-7">
