@@ -19,21 +19,18 @@ function Authors() {
                 objectPosition={list.style}
               />
             </div>
-            <h3 className="text-primary">{list.name}</h3>
+            <h3 className="font-bold text-primary">{list.name}</h3>
             <h4 className="text-sm font-medium">{list.role}</h4>
             <div className="flex items-center justify-center mx-auto space-x-3">
-              {list?.contact?.linkedln && (
-                <AiOutlineLinkedin
-                  className="text-2xl text-gray-500 duration-300 ease-in-out cursor-pointer hover:text-dark"
-                  onClick={list?.contact?.linkedln}
-                />
-              )}
-              {list?.contact?.instagram && (
-                <AiOutlineInstagram
-                  className="text-2xl text-gray-500 duration-300 ease-in-out cursor-pointer hover:text-dark"
-                  onClick={list?.contact?.instagram}
-                />
-              )}
+              <AiOutlineLinkedin
+                className="text-2xl text-gray-500 duration-300 ease-in-out cursor-pointer hover:text-dark"
+                onClick={list?.contact?.linkedln}
+              />
+
+              <AiOutlineInstagram
+                className="text-2xl text-gray-500 duration-300 ease-in-out cursor-pointer hover:text-dark"
+                onClick={list?.contact?.instagram}
+              />
             </div>
           </div>
         ))}

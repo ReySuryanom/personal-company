@@ -10,7 +10,7 @@ function Hero() {
         <p className="text-2xl font-semibold text-title">
           Supplying across the globe
         </p>
-        <h1 className="font-medium text-5xl w-[49%] mt-3 leading-tight text-title">
+        <h1 className="font-bold text-5xl w-[49%] mt-3 leading-tight text-title">
           The Leading Supplier of Coconut Product
         </h1>
         <Button
