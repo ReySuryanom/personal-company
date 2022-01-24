@@ -47,10 +47,10 @@ function Navbar() {
       className={`${
         !isScrollingUp ? 'hidden' : 'bg-white text-dark border-dark border-b-2'
       } ${
-        top && '!bg-transparent !text-primary !border-0'
+        top && '!bg-transparent !text-title !border-0'
       } fixed top-0 left-0 flex duration-500 ease-in-out items-center justify-between w-full py-3 px-[105px] z-10`}
     >
-      <a href="#header" className={`text-2xl font-bold leading-6 text-primary`}>
+      <a href="#header" className={`text-2xl font-bold leading-6 text-title`}>
         Sugarsweet<span className="block">Coco</span>
       </a>
       <ul className="flex items-start justify-between space-x-10 font-bold ">

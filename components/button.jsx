@@ -1,7 +1,7 @@
 function Button({ title, style, action, children, dark, type = 'button' }) {
   const variant = dark
     ? 'border-[#C4C4C4] text-primary px-5 py-2.5'
-    : 'border-primary text-primary px-7 py-4';
+    : 'border-title text-title px-7 py-4';
 
   return (
     <button

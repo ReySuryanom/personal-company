@@ -11,7 +11,8 @@ module.exports = {
       }),
       colors: {
         dark: '#333333',
-        primary: '#588157',
+        primary: '#925614',
+        title: '#588157',
       },
       fontFamily: {
         montserrat: ['Montserrat', 'sans-serif'],

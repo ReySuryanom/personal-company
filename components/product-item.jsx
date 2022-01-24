@@ -25,7 +25,7 @@ function ProductItem({ product }) {
           action={() => open('https://wa.me/6281379629411')}
           dark
         >
-          <FaWhatsapp className="ml-2 text-2xl text-primary" />
+          <FaWhatsapp className="ml-2 text-2xl text-title" />
         </Button>
       </div>
       <div className="w-1/2">
