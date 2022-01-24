@@ -5,7 +5,7 @@ function About() {
   return (
     <section className="p-[105px] flex items-center" id="about">
       <div className="w-1/2 space-y-12">
-        <h2 className="text-3xl font-semibold">About Us</h2>
+        <h2 className="text-5xl font-bold text-primary">About Us</h2>
         <h3 className="w-4/5 text-lg">
           We cultivate more than 1,500 hectares of coconut plantations spread
           across several islands in Indonesia. Our company is expanding into
