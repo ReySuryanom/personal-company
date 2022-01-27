@@ -73,7 +73,7 @@ export const authorsList = [
   },
   {
     img: dennySEImage,
-    name: 'Denny SE',
+    name: 'Danny SE',
     role: 'Head Marketing',
     style: 'top',
     contact: {
